@@ -1,0 +1,90 @@
+diff --git a/lib/contexts/IconDirectionContext.js b/lib/contexts/IconDirectionContext.js
+index 2827690dff83176e0d14855393fb6beeb8b0083c..155cd86d00dfdcc4552c4d402b816960190db235 100644
+--- a/lib/contexts/IconDirectionContext.js
++++ b/lib/contexts/IconDirectionContext.js
+@@ -1,3 +1,4 @@
++'use client';
+ import * as React from 'react';
+ const IconDirectionContext = React.createContext(undefined);
+ const IconDirectionContextDefaultValue = {};
+diff --git a/lib/utils/bundleIcon.js b/lib/utils/bundleIcon.js
+index c64a537348703e91fdf07f66145b01c5187a9ea2..0d35db47b9b96c5a09c4676a95f0f718a8297b7c 100644
+--- a/lib/utils/bundleIcon.js
++++ b/lib/utils/bundleIcon.js
+@@ -1,3 +1,4 @@
++'use client';
+ import * as React from "react";
+ import { mergeClasses } from "@griffel/react";
+ import { iconFilledClassName, iconRegularClassName } from "./constants";
+diff --git a/lib/utils/createFluentIcon.js b/lib/utils/createFluentIcon.js
+index 98f771a6f2a79006ef083cdf6d6ec599348507e6..90faaf74ea4266c72d547e2ddaf22d18b6561301 100644
+--- a/lib/utils/createFluentIcon.js
++++ b/lib/utils/createFluentIcon.js
+@@ -1,3 +1,4 @@
++'use client';
+ import * as React from "react";
+ import { mergeClasses } from "@griffel/react";
+ import { useIconState } from "./useIconState";
+diff --git a/lib/utils/useIconState.js b/lib/utils/useIconState.js
+index 059c15bce3e0f0925c4e638ba39d8207022e8165..b25c3f51b639d51a7a663b110ffda910d4502918 100644
+--- a/lib/utils/useIconState.js
++++ b/lib/utils/useIconState.js
+@@ -1,3 +1,4 @@
++'use client';
+ import { useIconContext } from "../contexts";
+ import { mergeClasses } from "@griffel/react";
+ import { useStyles } from "./useIconStyles.styles";
+diff --git a/lib/utils/wrapIcon.js b/lib/utils/wrapIcon.js
+index 429dbca2104843e82722d70084fb3fc990947729..f44b647c6c1400e6e75d3015c0affde4f529f027 100644
+--- a/lib/utils/wrapIcon.js
++++ b/lib/utils/wrapIcon.js
+@@ -1,3 +1,4 @@
++'use client';
+ import * as React from "react";
+ import { useIconState } from "./useIconState";
+ const wrapIcon = (Icon, displayName, options) => {
+diff --git a/lib-cjs/contexts/IconDirectionContext.js b/lib-cjs/contexts/IconDirectionContext.js
+index 47d96ba953b94efedd1789d7d205b75e3632de1c..e6553c1a56145c7b3e8bdc45f574f411adb3c568 100644
+--- a/lib-cjs/contexts/IconDirectionContext.js
++++ b/lib-cjs/contexts/IconDirectionContext.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", { value: true });
+ exports.useIconContext = exports.IconDirectionContextProvider = void 0;
+diff --git a/lib-cjs/utils/bundleIcon.js b/lib-cjs/utils/bundleIcon.js
+index 2f9772d1ed20a58fa04e62dcd4a5f20c3e29cea3..25f2577707e206a4fd8c8771306aa02d03bd5311 100644
+--- a/lib-cjs/utils/bundleIcon.js
++++ b/lib-cjs/utils/bundleIcon.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", { value: true });
+ const tslib_1 = require("tslib");
+diff --git a/lib-cjs/utils/createFluentIcon.js b/lib-cjs/utils/createFluentIcon.js
+index 4dacdce3220717355d81cd2b4fb179500d4a043f..446d4be95d179eab9819a98524dc084984950817 100644
+--- a/lib-cjs/utils/createFluentIcon.js
++++ b/lib-cjs/utils/createFluentIcon.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", { value: true });
+ exports.createFluentIcon = void 0;
+diff --git a/lib-cjs/utils/useIconState.js b/lib-cjs/utils/useIconState.js
+index bb58c8fd770bfeb9b08c51063f613cea792a43c2..90f0221222564c2e20b50cece2e282e80503435f 100644
+--- a/lib-cjs/utils/useIconState.js
++++ b/lib-cjs/utils/useIconState.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", { value: true });
+ exports.useIconState = void 0;
+diff --git a/lib-cjs/utils/wrapIcon.js b/lib-cjs/utils/wrapIcon.js
+index 13acc0e5b49d1eb8afa439d52e1dc81e3d12b276..2c2f3b02d79eb5e9bc594c5298914a716aba8d5d 100644
+--- a/lib-cjs/utils/wrapIcon.js
++++ b/lib-cjs/utils/wrapIcon.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", { value: true });
+ const tslib_1 = require("tslib");

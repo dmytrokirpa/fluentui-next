@@ -1,0 +1,459 @@
+diff --git a/lib-commonjs/components/presets/Body1/Body1.js b/lib-commonjs/components/presets/Body1/Body1.js
+index 219a9eb4de521ec76dfb3d8f8c2ed4c704b41fbb..02fb9348fd484557751f7e00900479880e97e21f 100644
+--- a/lib-commonjs/components/presets/Body1/Body1.js
++++ b/lib-commonjs/components/presets/Body1/Body1.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body1/useBody1Styles.styles.js b/lib-commonjs/components/presets/Body1/useBody1Styles.styles.js
+index dc4a4039f2bcc6452384e03caa143cb20dc450c6..1f7fe3c785eed48fe9ebf4473aa3d9def2759eae 100644
+--- a/lib-commonjs/components/presets/Body1/useBody1Styles.styles.js
++++ b/lib-commonjs/components/presets/Body1/useBody1Styles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body1/useBody1Styles.styles.raw.js b/lib-commonjs/components/presets/Body1/useBody1Styles.styles.raw.js
+index ea5881de2cbfa6a521e75440e104515a6474a294..eb67ab6d76a245a2107960f6b60f280783c62b82 100644
+--- a/lib-commonjs/components/presets/Body1/useBody1Styles.styles.raw.js
++++ b/lib-commonjs/components/presets/Body1/useBody1Styles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body1Strong/Body1Strong.js b/lib-commonjs/components/presets/Body1Strong/Body1Strong.js
+index 4c64bab68a63c58a49dd51a13251a9d6cf237ca6..032158731ffeeb0ea37dca28d7108567b166fce9 100644
+--- a/lib-commonjs/components/presets/Body1Strong/Body1Strong.js
++++ b/lib-commonjs/components/presets/Body1Strong/Body1Strong.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body1Strong/useBody1StrongStyles.styles.js b/lib-commonjs/components/presets/Body1Strong/useBody1StrongStyles.styles.js
+index 00b975ab60d8baa4367b4c97bb604ee00edf3ebd..d17dd4927cd422a72e123cd69faafa85d63078d1 100644
+--- a/lib-commonjs/components/presets/Body1Strong/useBody1StrongStyles.styles.js
++++ b/lib-commonjs/components/presets/Body1Strong/useBody1StrongStyles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body1Strong/useBody1StrongStyles.styles.raw.js b/lib-commonjs/components/presets/Body1Strong/useBody1StrongStyles.styles.raw.js
+index ed89753ce04b41d98c79e63e35dd24a2f66604ad..058415fa05dcf25a0c843241bfec669905b58141 100644
+--- a/lib-commonjs/components/presets/Body1Strong/useBody1StrongStyles.styles.raw.js
++++ b/lib-commonjs/components/presets/Body1Strong/useBody1StrongStyles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body1Stronger/Body1Stronger.js b/lib-commonjs/components/presets/Body1Stronger/Body1Stronger.js
+index bd7e94d085140d94623e2209829cd7128ed0ac8d..3b7b1eb815ce2eedc4a6ba570d789f21eff8338a 100644
+--- a/lib-commonjs/components/presets/Body1Stronger/Body1Stronger.js
++++ b/lib-commonjs/components/presets/Body1Stronger/Body1Stronger.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body1Stronger/useBody1StrongerStyles.styles.js b/lib-commonjs/components/presets/Body1Stronger/useBody1StrongerStyles.styles.js
+index 6736fa8d4f05e17361f5485e33091e6cb70aa013..92a5156995cfa22762785bec40eced194ca201d1 100644
+--- a/lib-commonjs/components/presets/Body1Stronger/useBody1StrongerStyles.styles.js
++++ b/lib-commonjs/components/presets/Body1Stronger/useBody1StrongerStyles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body1Stronger/useBody1StrongerStyles.styles.raw.js b/lib-commonjs/components/presets/Body1Stronger/useBody1StrongerStyles.styles.raw.js
+index 3ac629d02f140af209a976bd0e5e7599081581c7..04eb719091dacc07ed7bd78de65a55b980925e74 100644
+--- a/lib-commonjs/components/presets/Body1Stronger/useBody1StrongerStyles.styles.raw.js
++++ b/lib-commonjs/components/presets/Body1Stronger/useBody1StrongerStyles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body2/Body2.js b/lib-commonjs/components/presets/Body2/Body2.js
+index 71aa5f0a69cc999ceb78916a8df1972c81857c30..b1a6014b4fb41f6fd40f9131498fe6766029b010 100644
+--- a/lib-commonjs/components/presets/Body2/Body2.js
++++ b/lib-commonjs/components/presets/Body2/Body2.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body2/useBody2Styles.styles.js b/lib-commonjs/components/presets/Body2/useBody2Styles.styles.js
+index d31db88277f460462df6291b0888f322cf9beb49..3696d89d500099e771ac3526283dbf66e58b1fda 100644
+--- a/lib-commonjs/components/presets/Body2/useBody2Styles.styles.js
++++ b/lib-commonjs/components/presets/Body2/useBody2Styles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Body2/useBody2Styles.styles.raw.js b/lib-commonjs/components/presets/Body2/useBody2Styles.styles.raw.js
+index 8f0e3b910c525c830a3f120d638ddb9235045dea..c3fc240a97111b4021dbd8555d293f8789ba3b4c 100644
+--- a/lib-commonjs/components/presets/Body2/useBody2Styles.styles.raw.js
++++ b/lib-commonjs/components/presets/Body2/useBody2Styles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption1/Caption1.js b/lib-commonjs/components/presets/Caption1/Caption1.js
+index c9965140041261a600050cb96e19251d53ef861e..181b2575d70055f254b1463adeeb0ee7df41b3f4 100644
+--- a/lib-commonjs/components/presets/Caption1/Caption1.js
++++ b/lib-commonjs/components/presets/Caption1/Caption1.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption1/useCaption1Styles.styles.js b/lib-commonjs/components/presets/Caption1/useCaption1Styles.styles.js
+index 88e864fe74d30899ffadd3606ef4523c80e37b51..9682557c1f9c70233dc1af9963a7d99c1d390416 100644
+--- a/lib-commonjs/components/presets/Caption1/useCaption1Styles.styles.js
++++ b/lib-commonjs/components/presets/Caption1/useCaption1Styles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption1/useCaption1Styles.styles.raw.js b/lib-commonjs/components/presets/Caption1/useCaption1Styles.styles.raw.js
+index a2bce54eb7e90bdb97d28f1aa31e064febffa349..7e5946df5455d4fff11c4407bf4eb6c826682fea 100644
+--- a/lib-commonjs/components/presets/Caption1/useCaption1Styles.styles.raw.js
++++ b/lib-commonjs/components/presets/Caption1/useCaption1Styles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption1Strong/Caption1Strong.js b/lib-commonjs/components/presets/Caption1Strong/Caption1Strong.js
+index d4843f1165e12a68507fc06325268761461a8578..d55cbdf2aa9ed027974aecf364fd1b3d0d53f908 100644
+--- a/lib-commonjs/components/presets/Caption1Strong/Caption1Strong.js
++++ b/lib-commonjs/components/presets/Caption1Strong/Caption1Strong.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption1Strong/useCaption1StrongStyles.styles.js b/lib-commonjs/components/presets/Caption1Strong/useCaption1StrongStyles.styles.js
+index ec893a61d7e1e3a0cda032facc9a35a5d1f31b5e..74bc8655de46c153962cfe6b486ac9cc139d7aeb 100644
+--- a/lib-commonjs/components/presets/Caption1Strong/useCaption1StrongStyles.styles.js
++++ b/lib-commonjs/components/presets/Caption1Strong/useCaption1StrongStyles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption1Strong/useCaption1StrongStyles.styles.raw.js b/lib-commonjs/components/presets/Caption1Strong/useCaption1StrongStyles.styles.raw.js
+index 78f4eed2e0cf603de57765f2f29d1e70dded658c..36359ee8fc42ab27bf4e595520efe45165664df5 100644
+--- a/lib-commonjs/components/presets/Caption1Strong/useCaption1StrongStyles.styles.raw.js
++++ b/lib-commonjs/components/presets/Caption1Strong/useCaption1StrongStyles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption1Stronger/Caption1Stronger.js b/lib-commonjs/components/presets/Caption1Stronger/Caption1Stronger.js
+index 4430ceabcb9db1ac445b8687d54d85f6ae3289db..96eb9e37902e33daa9dbff16a1a939ef725d6221 100644
+--- a/lib-commonjs/components/presets/Caption1Stronger/Caption1Stronger.js
++++ b/lib-commonjs/components/presets/Caption1Stronger/Caption1Stronger.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption1Stronger/useCaption1Stronger.styles.js b/lib-commonjs/components/presets/Caption1Stronger/useCaption1Stronger.styles.js
+index 5c17bfda6e0f479f969acc295ccc003b6a1f940c..62f17795dd4106702fdfc4932e5c0648bab5b0f7 100644
+--- a/lib-commonjs/components/presets/Caption1Stronger/useCaption1Stronger.styles.js
++++ b/lib-commonjs/components/presets/Caption1Stronger/useCaption1Stronger.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption1Stronger/useCaption1Stronger.styles.raw.js b/lib-commonjs/components/presets/Caption1Stronger/useCaption1Stronger.styles.raw.js
+index 58d81e77a3dabc77eccc110a07e62b54d9f22168..5a2bcce27fd2b99b5c553b4a7ed3dcedb51f2839 100644
+--- a/lib-commonjs/components/presets/Caption1Stronger/useCaption1Stronger.styles.raw.js
++++ b/lib-commonjs/components/presets/Caption1Stronger/useCaption1Stronger.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption2/Caption2.js b/lib-commonjs/components/presets/Caption2/Caption2.js
+index 23b1a172c1cb66cbf1bbc34fcaaef4cc90033ad4..41593690e01e01b165b89b5da118e92220617acd 100644
+--- a/lib-commonjs/components/presets/Caption2/Caption2.js
++++ b/lib-commonjs/components/presets/Caption2/Caption2.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption2/useCaption2Styles.styles.js b/lib-commonjs/components/presets/Caption2/useCaption2Styles.styles.js
+index 7ce1c1f3b58fe4e0ebded1c4144c39e73b48f05a..2f9657b2a492cb92a3c1c3d87c97cf79954df5a8 100644
+--- a/lib-commonjs/components/presets/Caption2/useCaption2Styles.styles.js
++++ b/lib-commonjs/components/presets/Caption2/useCaption2Styles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption2/useCaption2Styles.styles.raw.js b/lib-commonjs/components/presets/Caption2/useCaption2Styles.styles.raw.js
+index 5274e7fd3360f1256bf5c89a077573e93a25dcc0..bdf0a5ea71b634f5f69200aedd65e85d0594f11d 100644
+--- a/lib-commonjs/components/presets/Caption2/useCaption2Styles.styles.raw.js
++++ b/lib-commonjs/components/presets/Caption2/useCaption2Styles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption2Strong/Caption2Strong.js b/lib-commonjs/components/presets/Caption2Strong/Caption2Strong.js
+index 49fc89bef9081ae068918a0375b001e717fecde5..b891f8c0e7c9415a7690fc03c41b404734f8e51b 100644
+--- a/lib-commonjs/components/presets/Caption2Strong/Caption2Strong.js
++++ b/lib-commonjs/components/presets/Caption2Strong/Caption2Strong.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption2Strong/useCaption2StrongStyles.styles.js b/lib-commonjs/components/presets/Caption2Strong/useCaption2StrongStyles.styles.js
+index 68f82e6f6ff358784a9895d838e7505ebdbc6804..3de691dfcecb5bb553160f1461822889076a2829 100644
+--- a/lib-commonjs/components/presets/Caption2Strong/useCaption2StrongStyles.styles.js
++++ b/lib-commonjs/components/presets/Caption2Strong/useCaption2StrongStyles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Caption2Strong/useCaption2StrongStyles.styles.raw.js b/lib-commonjs/components/presets/Caption2Strong/useCaption2StrongStyles.styles.raw.js
+index a0a7df42dbfbe6c699c8d9fb6ffa87dbb8ac2332..512d2f7d318bbae2513a7869f02ed59fb562ad6b 100644
+--- a/lib-commonjs/components/presets/Caption2Strong/useCaption2StrongStyles.styles.raw.js
++++ b/lib-commonjs/components/presets/Caption2Strong/useCaption2StrongStyles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Display/Display.js b/lib-commonjs/components/presets/Display/Display.js
+index 13f39a2eaeb5b66000dcaaaef5dbb2bb971a0c23..96ef36afc727bab33effc43185adc18b6f5564bf 100644
+--- a/lib-commonjs/components/presets/Display/Display.js
++++ b/lib-commonjs/components/presets/Display/Display.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Display/useDisplayStyles.styles.js b/lib-commonjs/components/presets/Display/useDisplayStyles.styles.js
+index 1c2c1611e680a74c56972b22d52a58faa5fe2987..9dfd019282a02177aec9df2a43be45ad2825568c 100644
+--- a/lib-commonjs/components/presets/Display/useDisplayStyles.styles.js
++++ b/lib-commonjs/components/presets/Display/useDisplayStyles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Display/useDisplayStyles.styles.raw.js b/lib-commonjs/components/presets/Display/useDisplayStyles.styles.raw.js
+index 87cdca241f6764aa95918d19b5ee660fd707e5e4..dc177cdc8b83f90417e73c66fa267e79d20587bd 100644
+--- a/lib-commonjs/components/presets/Display/useDisplayStyles.styles.raw.js
++++ b/lib-commonjs/components/presets/Display/useDisplayStyles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/LargeTitle/LargeTitle.js b/lib-commonjs/components/presets/LargeTitle/LargeTitle.js
+index d9e74227c238f938f27b27751864b34e5af05b4b..573542dd1c23dfa0ca4859bf0e5f52a634f3223a 100644
+--- a/lib-commonjs/components/presets/LargeTitle/LargeTitle.js
++++ b/lib-commonjs/components/presets/LargeTitle/LargeTitle.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/LargeTitle/useLargeTitleStyles.styles.js b/lib-commonjs/components/presets/LargeTitle/useLargeTitleStyles.styles.js
+index 247c367e4a44e3092db8f3a2b66ba75a2dcdd42f..fc4d3ff0a006154c44c258fdd8615b6b7d68927b 100644
+--- a/lib-commonjs/components/presets/LargeTitle/useLargeTitleStyles.styles.js
++++ b/lib-commonjs/components/presets/LargeTitle/useLargeTitleStyles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/LargeTitle/useLargeTitleStyles.styles.raw.js b/lib-commonjs/components/presets/LargeTitle/useLargeTitleStyles.styles.raw.js
+index 1a2985500aaa92cb63bb03d23130ccb46953ee68..a6c26c99731963e97e7e65c18f9332c682c69e10 100644
+--- a/lib-commonjs/components/presets/LargeTitle/useLargeTitleStyles.styles.raw.js
++++ b/lib-commonjs/components/presets/LargeTitle/useLargeTitleStyles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Subtitle1/Subtitle1.js b/lib-commonjs/components/presets/Subtitle1/Subtitle1.js
+index 08d991f18a40f39a9dc3377f2b0af99dd404c709..ad365ea64687f4f9f777656ebd5c826e49ab808e 100644
+--- a/lib-commonjs/components/presets/Subtitle1/Subtitle1.js
++++ b/lib-commonjs/components/presets/Subtitle1/Subtitle1.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Subtitle1/useSubtitle1Styles.styles.js b/lib-commonjs/components/presets/Subtitle1/useSubtitle1Styles.styles.js
+index 2f1cf2ab2a255fe5905a8c061798aa61f22a1725..01800f782e03e503a2c017183d80eacc480716fe 100644
+--- a/lib-commonjs/components/presets/Subtitle1/useSubtitle1Styles.styles.js
++++ b/lib-commonjs/components/presets/Subtitle1/useSubtitle1Styles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Subtitle1/useSubtitle1Styles.styles.raw.js b/lib-commonjs/components/presets/Subtitle1/useSubtitle1Styles.styles.raw.js
+index 1e7fb74fb86df1788e67e379cf4ecf85c8de933d..f07e5bfec9612368b9a2f84e57aa5fd45bd9622d 100644
+--- a/lib-commonjs/components/presets/Subtitle1/useSubtitle1Styles.styles.raw.js
++++ b/lib-commonjs/components/presets/Subtitle1/useSubtitle1Styles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Subtitle2/Subtitle2.js b/lib-commonjs/components/presets/Subtitle2/Subtitle2.js
+index c952e611364f616d7a8374b168b50ce6fcb95f79..c98534ff1fe81bd82ebb11c2a3ba7b29e169cf1f 100644
+--- a/lib-commonjs/components/presets/Subtitle2/Subtitle2.js
++++ b/lib-commonjs/components/presets/Subtitle2/Subtitle2.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Subtitle2/useSubtitle2Styles.styles.js b/lib-commonjs/components/presets/Subtitle2/useSubtitle2Styles.styles.js
+index 16f7736193e7ccd438c02a13f35c155ac922484a..585cfd527f66a76b5713bfb12a2f303e6ee94abf 100644
+--- a/lib-commonjs/components/presets/Subtitle2/useSubtitle2Styles.styles.js
++++ b/lib-commonjs/components/presets/Subtitle2/useSubtitle2Styles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Subtitle2/useSubtitle2Styles.styles.raw.js b/lib-commonjs/components/presets/Subtitle2/useSubtitle2Styles.styles.raw.js
+index 1c89d560ac2c138ee67beb7a97f4499aa9f06cfc..bbb26d694626434d0bcde5d00079995d6708ab58 100644
+--- a/lib-commonjs/components/presets/Subtitle2/useSubtitle2Styles.styles.raw.js
++++ b/lib-commonjs/components/presets/Subtitle2/useSubtitle2Styles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Subtitle2Stronger/Subtitle2Stronger.js b/lib-commonjs/components/presets/Subtitle2Stronger/Subtitle2Stronger.js
+index 27965ef4d6758ace3c964069ab5ed8187fafd7cf..d83bf4d38bc80e337c902f8a6006b050d055ae69 100644
+--- a/lib-commonjs/components/presets/Subtitle2Stronger/Subtitle2Stronger.js
++++ b/lib-commonjs/components/presets/Subtitle2Stronger/Subtitle2Stronger.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Subtitle2Stronger/useSubtitle2Stronger.styles.js b/lib-commonjs/components/presets/Subtitle2Stronger/useSubtitle2Stronger.styles.js
+index 00c4f218417301b88f85ff0cbc1f6e8b0583db9d..df52d76dd937187cb60913191d3474f798f673af 100644
+--- a/lib-commonjs/components/presets/Subtitle2Stronger/useSubtitle2Stronger.styles.js
++++ b/lib-commonjs/components/presets/Subtitle2Stronger/useSubtitle2Stronger.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Subtitle2Stronger/useSubtitle2Stronger.styles.raw.js b/lib-commonjs/components/presets/Subtitle2Stronger/useSubtitle2Stronger.styles.raw.js
+index 3b3332de006cc687a0df706afbd41116ebbc9f59..1567a61d14796ab214843282b82fca69e59f8031 100644
+--- a/lib-commonjs/components/presets/Subtitle2Stronger/useSubtitle2Stronger.styles.raw.js
++++ b/lib-commonjs/components/presets/Subtitle2Stronger/useSubtitle2Stronger.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Title1/Title1.js b/lib-commonjs/components/presets/Title1/Title1.js
+index 56796d090ea26683cc304c2f6bee70fb1a4b9eea..9b797ceb09f042e82b4aca1019f6419d40a248e9 100644
+--- a/lib-commonjs/components/presets/Title1/Title1.js
++++ b/lib-commonjs/components/presets/Title1/Title1.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Title1/useTitle1Styles.styles.js b/lib-commonjs/components/presets/Title1/useTitle1Styles.styles.js
+index 6a25fb0f8ce11f4b00c915e864a603724c15d4a8..e08add3d850d1cb801a824e62319fdc26376e0ac 100644
+--- a/lib-commonjs/components/presets/Title1/useTitle1Styles.styles.js
++++ b/lib-commonjs/components/presets/Title1/useTitle1Styles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Title1/useTitle1Styles.styles.raw.js b/lib-commonjs/components/presets/Title1/useTitle1Styles.styles.raw.js
+index 1dad2537ae5c8060baee490150ade502d617297b..53cfdcaaac04f73920d3219a49fc6f6fef042062 100644
+--- a/lib-commonjs/components/presets/Title1/useTitle1Styles.styles.raw.js
++++ b/lib-commonjs/components/presets/Title1/useTitle1Styles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Title2/Title2.js b/lib-commonjs/components/presets/Title2/Title2.js
+index 4793b504f8967a448f4f9451ac867876a766c920..419c612f15411d02cf5fdbfaddc615dd7872010a 100644
+--- a/lib-commonjs/components/presets/Title2/Title2.js
++++ b/lib-commonjs/components/presets/Title2/Title2.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Title2/useTitle2Styles.styles.js b/lib-commonjs/components/presets/Title2/useTitle2Styles.styles.js
+index d5374633aaacb15cfa3e62849040712bef529db1..bc1a91ed242e9118356a473a6e0327d2e2d75e10 100644
+--- a/lib-commonjs/components/presets/Title2/useTitle2Styles.styles.js
++++ b/lib-commonjs/components/presets/Title2/useTitle2Styles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Title2/useTitle2Styles.styles.raw.js b/lib-commonjs/components/presets/Title2/useTitle2Styles.styles.raw.js
+index 8c0dcb64e2b1b183ebe36e97c2fccddd03c9a718..89777aa1c72d2c419cdcd41e5eb457225eb240ca 100644
+--- a/lib-commonjs/components/presets/Title2/useTitle2Styles.styles.raw.js
++++ b/lib-commonjs/components/presets/Title2/useTitle2Styles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Title3/Title3.js b/lib-commonjs/components/presets/Title3/Title3.js
+index ce585636e6b744a7e520213df78fea462f53ad79..fe49b4d84cc0c26bee491698129a73e4c59898bb 100644
+--- a/lib-commonjs/components/presets/Title3/Title3.js
++++ b/lib-commonjs/components/presets/Title3/Title3.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Title3/useTitle3Styles.styles.js b/lib-commonjs/components/presets/Title3/useTitle3Styles.styles.js
+index 003c2f39bb896be375f5092d1232e9b4a3ed53d6..f48951bde09b78f3cb7c44ce157cba694526a24c 100644
+--- a/lib-commonjs/components/presets/Title3/useTitle3Styles.styles.js
++++ b/lib-commonjs/components/presets/Title3/useTitle3Styles.styles.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/presets/Title3/useTitle3Styles.styles.raw.js b/lib-commonjs/components/presets/Title3/useTitle3Styles.styles.raw.js
+index bc99c198b50153de05f4dd443a160a1bddbb3071..31d7d120452c6dd880ab3d9b08e9b0bed3d09c83 100644
+--- a/lib-commonjs/components/presets/Title3/useTitle3Styles.styles.raw.js
++++ b/lib-commonjs/components/presets/Title3/useTitle3Styles.styles.raw.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true

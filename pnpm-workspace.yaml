@@ -1,0 +1,10 @@
+onlyBuiltDependencies:
+  - sharp
+
+patchedDependencies:
+  '@fluentui/react-icons': patches/@fluentui__react-icons.patch
+  '@fluentui/react-message-bar': patches/@fluentui__react-message-bar.patch
+  '@fluentui/react-motion-components-preview': patches/@fluentui__react-motion-components-preview.patch
+  '@fluentui/react-shared-contexts': patches/@fluentui__react-shared-contexts.patch
+  '@fluentui/react-text': patches/@fluentui__react-text.patch
+  '@fluentui/react-utilities': patches/@fluentui__react-utilities.patch

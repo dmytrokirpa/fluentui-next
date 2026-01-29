@@ -1,0 +1,9 @@
+diff --git a/lib-commonjs/components/MessageBarGroup/MessageBarGroup.motions.js b/lib-commonjs/components/MessageBarGroup/MessageBarGroup.motions.js
+index 06c6b5dd5dbf6c6e254dca5911fa4134c415039c..58439650759146f59dd3f7f517f18843ff903ff1 100644
+--- a/lib-commonjs/components/MessageBarGroup/MessageBarGroup.motions.js
++++ b/lib-commonjs/components/MessageBarGroup/MessageBarGroup.motions.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true

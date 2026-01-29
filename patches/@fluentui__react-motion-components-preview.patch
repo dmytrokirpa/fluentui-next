@@ -1,0 +1,54 @@
+diff --git a/lib-commonjs/components/Blur/Blur.js b/lib-commonjs/components/Blur/Blur.js
+index db3a1c94cfea7bcdcd42222bfc395d13b054944e..25c337826ac3cadc816172db2dba26d840ca73fc 100644
+--- a/lib-commonjs/components/Blur/Blur.js
++++ b/lib-commonjs/components/Blur/Blur.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/Collapse/Collapse.js b/lib-commonjs/components/Collapse/Collapse.js
+index a31c5a0ec479097534e2e16c4f347724bef4c436..d355340bd5d8221c7e30a57bf5dac27537712664 100644
+--- a/lib-commonjs/components/Collapse/Collapse.js
++++ b/lib-commonjs/components/Collapse/Collapse.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/Fade/Fade.js b/lib-commonjs/components/Fade/Fade.js
+index cb40e224b7b245908d1531414d1bd716d2db7c33..a7b26d35bff5e059faa597eaa29ab1700bc62218 100644
+--- a/lib-commonjs/components/Fade/Fade.js
++++ b/lib-commonjs/components/Fade/Fade.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/Rotate/Rotate.js b/lib-commonjs/components/Rotate/Rotate.js
+index 35ae2e0f6ec69657e86ea538f9253af5e2486821..f29946e3aad87403c7fbb49a61060d85e4172737 100644
+--- a/lib-commonjs/components/Rotate/Rotate.js
++++ b/lib-commonjs/components/Rotate/Rotate.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/Scale/Scale.js b/lib-commonjs/components/Scale/Scale.js
+index efaa1c9ca7a72f8491edfe5a9f20a430c1316673..ca58d58d5d397c1a09dd74eef3745d29cfbead95 100644
+--- a/lib-commonjs/components/Scale/Scale.js
++++ b/lib-commonjs/components/Scale/Scale.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true
+diff --git a/lib-commonjs/components/Slide/Slide.js b/lib-commonjs/components/Slide/Slide.js
+index 6aa8dee80f30c6cdc078c15c56b6246555efad70..28cd6ffcb9062c75fd0373d5f76a2b816a257a4a 100644
+--- a/lib-commonjs/components/Slide/Slide.js
++++ b/lib-commonjs/components/Slide/Slide.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ Object.defineProperty(exports, "__esModule", {
+     value: true

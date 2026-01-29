@@ -3,25 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@fluentui/react-components": "^9.56.5",
-    "@fluentui/react-icons": "^2.0.267",
-    "next": "15.4.7",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "@fluentui/react-components": "^9.72.10",
+    "@fluentui/react-icons": "^2.0.317",
+    "@griffel/react": "file:../griffel/dist/packages/react",
+    "@griffel/core": "file:../griffel/dist/packages/core",
+    "next": "16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@griffel/webpack-loader": "file:../griffel/dist/packages/webpack-loader",
+    "@griffel/next-extraction-plugin": "file:../griffel/dist/packages/next-extraction-plugin",
+    "@griffel/babel-preset": "file:../griffel/dist/packages/babel-preset",
+    "@griffel/webpack-extraction-plugin": "file:../griffel/dist/packages/webpack-extraction-plugin",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.1.0",
+    "eslint-config-next": "16.1.6",
     "typescript": "^5"
-  }
+  },
+  "resolutions": {
+    "@griffel/react": "file:../griffel/dist/packages/react",
+    "@griffel/core": "file:../griffel/dist/packages/core",
+    "@griffel/babel-preset": "file:../griffel/dist/packages/babel-preset",
+    "@griffel/webpack-extraction-plugin": "file:../griffel/dist/packages/webpack-extraction-plugin"
+  },
+  "packageManager": "pnpm@10.28.2"
 }
